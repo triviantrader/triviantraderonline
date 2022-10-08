@@ -1,0 +1,168 @@
+.second-thoughts-container {
+    /* height: 691px; */
+    background-image: url(img/second-thoughts-bg.svg);
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    
+    padding-top: 156px;
+}
+.second-thoughts-title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    margin-bottom: 60px;
+}
+.second-thoughts-subtitle {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: center;
+    color: #000000;
+
+    margin-bottom: 60px;
+}
+
+.phone-mail-container-main {
+    display: flex;
+    justify-content: center; 
+
+    margin-bottom: 88px;
+}
+
+.phone-mail-container {
+    display: flex;
+    width: 775px;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+.phone-mail-cards {
+    width: 371px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+
+    transition: .4s;
+}
+
+.phone-mail-cards:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+    
+.phone-mail-cards:hover p {
+    /* color: #ffffff; */
+}
+.phone-mail-container p {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    margin-top: 17px;
+    
+}
+
+
+
+/* social media */
+.social-media-container-main {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 77px;
+}
+.social-media-container {
+    display: flex;
+    width: 224px;
+    justify-content: space-between;
+}
+
+
+
+
+@media screen and (max-width:835px) {
+    .phone-mail-container {
+        /* width: 100%; */
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .phone-mail-container {
+      width: 90%;
+    }
+}
+@media screen and (max-width: 415px) {
+    .second-thoughts-title{
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        width: 312px;
+        margin-bottom: 58px;
+    }
+
+    .second-thoughts-subtitle {
+        font-size: 16px;
+        line-height: 170%;
+        text-align: center;
+        width: 312px;
+
+        margin-bottom: 18px;
+    }  
+
+    .phone-mail-container {
+        row-gap: 12px;
+    }
+    .second-thoughts-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone-mail-cards {
+        width: 312px;
+        height: 80px;
+    }
+    .phone-mail-cards p{
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .phone-mail-container-main {
+        margin-bottom: 40px;
+    }
+    .second-thoughts-container {
+        background-image: url(img/second-thoughts-mobile-bg.svg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: 0px -50;
+
+        padding-top: 64px;
+    }
+}
+

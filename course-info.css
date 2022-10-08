@@ -1,0 +1,306 @@
+.course-info-text {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+
+    margin-bottom: 44px;
+}
+
+.course-info-title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/* course info */
+
+.course-info-container {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 40px;  
+}
+.course-info-container-secondary {
+    width: 1120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.course-offerings {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 69px;
+    padding-bottom: 50px;
+}
+
+.offerings-list-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.offerings-individual {
+    display: flex;
+    column-gap: 12px;
+}
+
+/* course info text */
+
+.course-offerings-title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #000000;
+
+    margin-bottom: 50px;
+}
+.offerings-list-container p {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+
+
+
+
+
+
+/* price */
+
+
+
+.price-info {
+    width: 559px;
+    height: 682px;
+    background: #0D4FDE;
+    box-shadow: 0px 11px 20px rgba(13, 79, 222, 0.3);
+    border-radius: 10px;  
+    background-image: url(logos/price-background.svg);  
+
+    padding-top: 208px;
+    padding-bottom: 208px;
+}
+
+
+
+/* price info texts */
+
+.now-available {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+    margin-bottom: 22px;
+}
+
+.price-no {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 86px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+
+    margin-bottom: 22px;
+}
+
+.taxes-text {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+/* button */
+
+.price-info button {
+    width: 358px;
+    height: 60px;
+
+    background: #78B548;
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+
+    transition: .4s;
+}
+
+.price-info button:hover{
+    transform: scale(1.06);
+    background: rgb(45, 45, 45);
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 22px;
+}
+
+
+@media screen and (max-width:415px) {
+
+    .course-info-container {
+        margin-bottom: 96px;
+    }
+
+    .course-info-container-secondary {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .course-info-title  {
+        display: flex;
+        justify-content: center;
+
+        margin-bottom: 58px;
+    }
+    .course-info-title p {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        width: 312px;
+    }
+
+    .course-info-text {
+        margin-bottom: 16px;
+    }
+
+    .course-info-text p {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.01em;
+    }
+
+    .course-offerings {
+        /* display: flex; */
+        align-items: center;
+        width: 312px;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+
+    .course-offerings-title {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+
+        margin-bottom: 30.5px;
+    }
+
+    .offerings-list-container p {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;
+    }
+
+    .course-offerings-title {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        text-align: center;
+    }
+    .offerings-list-container p {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;
+        margin-bottom: 30px;
+    }
+
+    .price-info {
+        width: 312px;
+        height: 406px;
+        padding-top: 95.5px;
+
+        /* background-image: url(img/price-bg-mobile.svg); */
+    }
+
+
+        .now-available {
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.01em;
+        }
+    
+        .price-no {
+            font-size: 48px;
+            line-height: 58px;
+            text-align: center;
+            letter-spacing: 0.01em;
+        }
+    
+        .taxes-text {
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            letter-spacing: 0.01em;
+        }
+    
+        /* button */
+    
+        .price-info button {
+            width: 230px;
+            height: 52px;
+            border-radius: 10px;
+    
+            font-size: 22px;
+            line-height: 26px;
+            letter-spacing: 0.035em;
+        }
+    
+        .button-container {
+            display: flex;
+            justify-content: center;
+    
+            margin-bottom: 22px;
+        }
+
+        
+}

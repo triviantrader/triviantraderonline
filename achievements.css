@@ -1,0 +1,88 @@
+.achievements-container {
+    /* height: 624px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/achievemenra-bg.svg);
+    background-size: cover;
+
+    padding-top: 182px;
+    padding-bottom: 139px;
+}
+
+
+.achievements-title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+
+    margin-bottom: 48.5px;
+}
+
+.achievements-content-container-main {
+    display: flex;
+    justify-content: center;
+}
+.achievements-container-secondary {
+    display: flex;
+    /* width: 1175px;  */
+    width: 1150px;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+
+}
+.achievements-container-secondary p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+
+}
+
+
+@media screen and (max-width:1040px) {
+    .achievements-container-secondary {
+        width: 50%;
+        flex-wrap: wrap;
+        row-gap: 100px;
+
+    }
+}
+@media screen and (max-width: 415px) {
+    .achievements-container {
+        background-image: url(img/achievements-bg-mobile.svg);
+        background-size: cover;
+        background-position: 0 -110px;
+
+        padding-top: 0;
+        padding-bottom: 0;
+        }
+    .achievements-title {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        margin-bottom: 48px;
+        width: 312px;
+    }
+    .achievements-container-secondary {
+        row-gap: 48px;
+    }
+    .achievements-container-secondary p {
+        font-size: 18px;      
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.01em;
+    }
+}

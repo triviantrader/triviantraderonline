@@ -1,0 +1,122 @@
+.carousel-indicators {
+   bottom: -25px;
+}
+
+.slider-main-header {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    width: 761px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.slider-card-container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-card-single {
+    width: 726px;
+    height: 496px;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.slider-card-title {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.slider-card-comments {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    width: 400px;
+}
+.slider-card-student {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    
+}
+
+@media screen and (max-width: 415px) {
+    .slider-card-single {
+        width: 267px;
+        height: 399px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .slider-card-single img{
+        margin-bottom: 12px;
+    }
+
+    .slider-card-title {
+        font-size: 22px;
+        line-height: 170%;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    .slider-card-comments {
+        font-size: 16px;
+        line-height: 170%;
+        text-align: center;
+        letter-spacing: 0.01em;
+        width: 235px;
+    }
+    .slider-card-student {
+        font-size: 20px;
+        line-height: 170%;
+        text-align: center;
+        letter-spacing: 0.01em;
+    }
+    .slider-main-header {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+
+        margin-bottom: 0px;
+        margin-top: 116px;
+        width: 312px;
+    }
+
+    .carousel-indicators {
+        bottom: 40px;
+    }
+}
+

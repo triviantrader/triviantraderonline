@@ -1,0 +1,252 @@
+.mentorship-programs {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 60px;
+    padding-top: 120px;
+}
+
+.mentorship-title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+
+/* description */
+
+.mentorship-description {
+    display: flex;
+    justify-content: center;
+    
+}
+.mentorship-description p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width: 1120px;
+
+    margin-bottom: 90px;    
+}
+
+
+
+/* cards */
+
+
+.programs-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/mentorship-bg.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size:auto;
+    margin-bottom: 197px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    width: 1175px;
+    /* flex-wrap: wrap; */
+}
+
+.cards-container-mobile {
+    display: none;
+}
+
+.program-card {
+    width: 282px;
+    height: 374px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: .4s;
+}
+
+.program-card:hover{
+    background: rgb(119, 218, 149);
+    transform: scale(1.04);
+}
+.program-card:hover p {
+    color: rgb(255, 255, 255);
+}
+.img-container {
+    width: 84px;
+    height: 84px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 107px;
+    margin-top: 49px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.program-card p{
+ text-align: center;
+}
+
+.card-header {
+    width: 188px;
+    height: 26px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 29px;
+}
+
+.card-description {
+    width: 234px;
+    height: 78px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 36px;
+}
+
+
+@media screen and (max-width:1190px) {
+    .cards-container {
+        width: 70%;
+        flex-wrap: wrap;
+        row-gap: 5vw;
+    }
+}
+@media screen and (max-width:768px) {
+    .cards-container {
+        width: 90%;
+        flex-wrap: wrap;
+        row-gap: 5vw;
+    }
+}
+@media screen and (max-width:930px) {
+    .cards-container {
+        width: 90%;
+        flex-wrap: wrap;
+        row-gap: 5vw;
+    }
+}
+@media screen and (max-width:415px) {
+    .mentorship-programs {
+        margin-bottom: 29px;
+    }
+
+    .mentorship-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+    .mentorship-description p{
+        width: 312px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        margin-bottom: 24px;
+
+    }
+
+
+
+
+
+
+
+    .cards-container{
+        display: none;
+    }
+
+    .cards-container-mobile {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+    .program-card {
+        width: 264px;
+        height: 165px;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .program-card-top-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+
+    .card-header {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+
+        margin-top: 0;
+    }
+    .img-container {
+        width: 40px;
+        height: 40px;
+
+        margin-top: 0;
+    }
+    .img-container img {
+        width: 22px;
+    }
+
+    .card-description {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        margin-top: 18px;
+        width: 235px;
+    }
+
+    .programs-container {
+        margin-bottom: 71px;
+    }
+
+}
+

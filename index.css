@@ -1,0 +1,14 @@
+.reds {
+    height: 250px;
+    background: red;
+}
+
+.greens {
+    height: 250px;
+    background: green;
+}
+
+body {
+    background: #FFFCF2;
+    overflow-x: hidden;
+}

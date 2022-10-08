@@ -1,0 +1,117 @@
+.asset-management-container {
+    /* height: 956px; */
+    background-image: url(img/asset-management-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 190px;
+    margin-bottom: 122px;
+}
+.asset-management-container-title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    margin-bottom: 121px;
+}
+
+.asset-management-info {
+    display: flex;
+    justify-content: center;
+}
+.asset-management-info-secondary {
+    display: flex;
+    width: 1120px;
+    justify-content: space-between;
+    column-gap: 24px;
+    /* flex-wrap: wrap; */
+}
+
+
+.asset-management-description p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.asset-management-img {
+    /* width: 548px; */
+}
+.asset-management-img img {
+    /* border: 5px solid #FFFFFF; */
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+}
+
+
+@media screen and (max-width:1157px) {
+    .asset-management-description {
+        /* width: 548px; */
+        padding-left: 25px;
+    }
+}
+@media screen and (max-width:924px) {
+    .asset-management-description {
+        text-align: center;
+    }
+
+    .asset-management-info-secondary {
+        /* width: 80%; */
+        row-gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .asset-management-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+} 
+
+
+@media screen and (max-width:415px) {
+    .asset-management-img img{
+        width: 312px;
+    }
+
+    .asset-management-info-secondary {
+        /* width: 80%; */
+        row-gap: 40px;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    }
+
+    .asset-management-container-title {
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.02em;
+        width: 312px;
+        text-align: center;
+
+        margin-bottom: 24px;
+    }
+    .asset-management-description p{
+        font-size: 16px;
+        line-height: 170%;
+        text-align: center;
+        width: 312px;
+    }
+    .asset-management-container {
+        /* background-image: url(img/asset-management-bg-mobile.svg); */
+        background-image: none;
+        background-repeat: no-repeat;
+        /* background-size:contain; */
+        padding-top: 70px;
+        margin-bottom: 60px;
+
+    }
+    
+}

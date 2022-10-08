@@ -1,0 +1,225 @@
+.about-container {
+    /* height: 1301px; */
+    background: linear-gradient(180deg, rgba(224, 253, 255, 0.81) 22.9%, rgba(211, 226, 255, 0) 94.49%);
+
+    padding-top: 84px;
+    margin-bottom: 72px;
+}
+
+.about-title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    margin-bottom: 80px;
+}
+
+.trivin-trader-image-mobile {
+    display: none;
+}
+
+.about-img-container {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 61px;
+}
+
+
+/* cards */
+
+
+.about-cards-container-main {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 61px;
+}
+
+.about-cards-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+}
+
+.about-cards {
+    width: 262px;
+    height: 214px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    padding-top: 53px;
+
+    transition: .4s;
+}
+.about-cards:hover {
+    background: rgb(64, 64, 64);
+    transform: scale(1.06);
+}
+.about-cards:hover p {
+    color: #FFFFFF;
+}
+.about-cards-title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 170%;
+    text-align: center;
+    color: #000000;
+
+    margin-bottom: 17px;
+}
+.about-cards-subtitle {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    color: #000000;
+}
+
+.about-description-container-main {
+    display: flex;
+    justify-content: center;
+    
+}
+.about-description-container {
+    width: 1119px;
+    /* flex: 1; */
+
+}
+
+
+.about-description {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:1190px) {
+    /* .cards-container {
+        width: 70%;
+        flex-wrap: wrap;
+        row-gap: 5vw;
+    } */
+
+    .about-cards-container {
+        
+        width: 50%;
+        flex-wrap: wrap;
+        row-gap: 5vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+   
+    .about-cards-container {
+
+        width: 80%;
+        flex-wrap: wrap;
+        row-gap: 5vw;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    
+        .about-cards-container {
+
+            width: 60%;
+            flex-wrap: wrap;
+            row-gap: 5vw;
+            
+        }
+}
+@media screen and (max-width:1000px) {
+    
+        .about-cards-container {
+
+            width: 70%;
+            flex-wrap: wrap;
+            row-gap: 5vw;
+            
+        }
+}
+@media screen and (max-width:780px) {
+    
+        .about-cards-container {
+
+            width: 90%;
+            flex-wrap: wrap;
+            row-gap: 5vw;
+            
+        }
+}
+@media screen and (max-width:619px) {
+    
+        .about-cards-container {
+
+            width: 40%;
+            flex-wrap: wrap;
+            row-gap: 5vw;
+            
+        }
+}
+@media screen and (max-width:415px) {
+    
+    .trivin-trader-image {
+        display: none;
+    }
+    .trivin-trader-image-mobile {
+        display: inline-block;
+    }
+    .about-title {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+    .about-cards {
+        width: 148px;
+        height: 114px;
+    }
+
+    .about-cards-container {
+
+        width: 86%;
+        flex-wrap: wrap;
+        row-gap: 13px;
+    }
+    .about-cards {
+        padding-top: 22.5px;
+    }
+    .about-cards-title {
+        font-size: 20px;
+        line-height: 170%;
+        text-align: center;
+
+        margin-bottom: 8px;
+    }
+    .about-cards-subtitle {
+        font-size: 16px;
+        line-height: 170%;
+        text-align: center;
+    }
+    .about-description {
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+    }
+    .about-description-container {
+        width: 312px;
+    }
+}

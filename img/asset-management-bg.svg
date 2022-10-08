@@ -1,0 +1,50 @@
+<svg width="1428" height="912" viewBox="0 0 1428 912" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="6.4691" cy="779.469" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="6.4691" cy="804.729" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="6.4691" cy="829.99" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="6.4691" cy="855.25" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="6.4691" cy="880.51" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="6.4691" cy="905.771" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="40.3548" cy="779.469" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="40.3548" cy="804.729" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="40.3548" cy="829.99" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="40.3548" cy="855.25" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="40.3548" cy="880.51" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="40.3548" cy="905.771" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="74.2406" cy="779.469" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="74.2406" cy="804.729" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="74.2406" cy="829.99" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="74.2406" cy="855.25" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="74.2406" cy="880.51" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="74.2406" cy="905.771" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="108.126" cy="779.469" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="108.126" cy="804.729" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="108.126" cy="829.99" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="108.126" cy="855.25" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="108.126" cy="880.51" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="108.126" cy="905.771" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="142.012" cy="779.469" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="142.012" cy="804.729" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="142.012" cy="829.99" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="142.012" cy="855.25" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="142.012" cy="880.51" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="142.012" cy="905.771" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="175.898" cy="779.469" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="175.898" cy="804.729" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="175.898" cy="829.99" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="175.898" cy="855.25" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="175.898" cy="880.51" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<circle cx="175.898" cy="905.771" r="6.4691" fill="#E128FF" fill-opacity="0.51"/>
+<path d="M1388 54C1388 83.8234 1363.82 108 1334 108C1304.18 108 1280 83.8234 1280 54C1280 24.1766 1304.18 0 1334 0C1363.82 0 1388 24.1766 1388 54ZM1298.04 54C1298.04 73.8575 1314.14 89.9553 1334 89.9553C1353.86 89.9553 1369.96 73.8575 1369.96 54C1369.96 34.1425 1353.86 18.0447 1334 18.0447C1314.14 18.0447 1298.04 34.1425 1298.04 54Z" fill="#EEEEFF"/>
+<path d="M1428 139.5C1428 156.897 1413.9 171 1396.5 171C1379.1 171 1365 156.897 1365 139.5C1365 122.103 1379.1 108 1396.5 108C1413.9 108 1428 122.103 1428 139.5ZM1375.53 139.5C1375.53 151.084 1384.92 160.474 1396.5 160.474C1408.08 160.474 1417.47 151.084 1417.47 139.5C1417.47 127.916 1408.08 118.526 1396.5 118.526C1384.92 118.526 1375.53 127.916 1375.53 139.5Z" fill="#EEEEFF"/>
+<g filter="url(#filter0_f_261_2)">
+<ellipse cx="747" cy="172.5" rx="341" ry="27.5" fill="#ACBCDF" fill-opacity="0.3"/>
+</g>
+<defs>
+<filter id="filter0_f_261_2" x="306" y="45" width="882" height="255" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_261_2"/>
+</filter>
+</defs>
+</svg>
