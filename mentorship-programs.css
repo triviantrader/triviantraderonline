@@ -152,7 +152,7 @@
         row-gap: 5vw;
     }
 }
-@media screen and (max-width:415px) {
+@media screen and (max-width:500px) {
     .mentorship-programs {
         margin-bottom: 29px;
     }

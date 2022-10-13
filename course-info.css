@@ -153,6 +153,7 @@
     width: 358px;
     height: 60px;
 
+    /* background: #78B548; */
     background: #78B548;
     border: none;
     border-radius: 10px;
@@ -170,7 +171,10 @@
 
 .price-info button:hover{
     transform: scale(1.06);
-    background: rgb(45, 45, 45);
+    /* background: rgb(45, 45, 45); */
+}
+.price-info button:active{
+    transform: scale(.8);
 }
 .button-container {
     display: flex;
@@ -180,7 +184,22 @@
 }
 
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:924px) {
+
+    .course-info-container-secondary {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:905px) {
+
+.course-offerings {
+    width: 60%;
+}
+
+
+@media screen and (max-width:500px) {
 
     .course-info-container {
         margin-bottom: 96px;
@@ -303,4 +322,5 @@
         }
 
         
+    }
 }

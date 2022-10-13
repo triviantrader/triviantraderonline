@@ -1,7 +1,7 @@
 
 .navbar-main {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .navbar-secondary{
     /* background-color: red; */
@@ -58,7 +58,7 @@
 .burger {
     display: none;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 
@@ -119,6 +119,7 @@
         height: 100vh;
         top: -20px;
         background: #ffffff;
+        color: black;
         
         display: flex;
         flex-direction: column;
@@ -173,9 +174,12 @@
     transform: rotate(45deg) translate(-5px, -6px) scaleX(1);
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:830px) {
     .navbar-title {
-        font-size: 19px;
-        line-height: 27px;
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .navbar-secondary {
+        height: 95px;
     }
 }

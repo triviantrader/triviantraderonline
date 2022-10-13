@@ -3,7 +3,7 @@
     background: linear-gradient(180deg, rgba(224, 253, 255, 0.81) 22.9%, rgba(211, 226, 255, 0) 94.49%);
 
     padding-top: 84px;
-    margin-bottom: 72px;
+    margin-bottom: 92px;
 }
 
 .about-title {
@@ -43,7 +43,7 @@
 
 .about-cards-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 1120px;
 }
 
@@ -104,7 +104,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 170%;
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -122,17 +122,18 @@
         flex-wrap: wrap;
         row-gap: 5vw;
     }
-}
-
-@media screen and (max-width:768px) {
-   
     .about-cards-container {
 
         width: 80%;
         flex-wrap: wrap;
         row-gap: 5vw;
     }
+
+    .about-description-container {
+        width: 80%;
+    }
 }
+
 
 @media screen and (max-width:1130px) {
     
@@ -164,7 +165,27 @@
             
         }
 }
+
+@media screen and (max-width:664px) {
+    .trivin-trader-image {
+      width: 95%;
+    }
+}
 @media screen and (max-width:619px) {
+    
+        .about-cards-container {
+
+            width: 90%;
+            flex-wrap: wrap;
+            row-gap: 5vw;
+            
+        }
+        .about-cards {
+            width: 45%;
+            /* height: 114px; */
+        }
+}
+@media screen and (max-width:500px) {
     
         .about-cards-container {
 
@@ -174,7 +195,7 @@
             
         }
 }
-@media screen and (max-width:415px) {
+@media screen and (max-width:499px) {
     
     .trivin-trader-image {
         display: none;
@@ -215,8 +236,9 @@
         text-align: center;
     }
     .about-description {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 160%;
+        letter-spacing: em;
         text-align: center;
     }
     .about-description-container {

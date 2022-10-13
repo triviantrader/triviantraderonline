@@ -12,3 +12,10 @@ body {
     background: #FFFCF2;
     overflow-x: hidden;
 }
+
+/* @media screen and (max-width: 415px) {
+    body {
+       width: 100vw;
+       overflow-x: hidden;
+    }
+} */

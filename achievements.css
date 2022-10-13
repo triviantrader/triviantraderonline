@@ -6,9 +6,11 @@
     justify-content: center;
     background-image: url(img/achievemenra-bg.svg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -120px;
 
     padding-top: 182px;
-    padding-bottom: 139px;
+    padding-bottom: 160px;
 }
 
 
@@ -50,7 +52,21 @@
 }
 
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width:1536px) {
+    .achievements-container {
+        /* height: 624px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/achievemenra-bg.svg);
+        background-size: cover;
+    
+        padding-top: 182px;
+        padding-bottom: 139px;
+        background-position: 0 0;    }
+}
+@media screen and (max-width:1144px) {
     .achievements-container-secondary {
         width: 50%;
         flex-wrap: wrap;
@@ -58,7 +74,7 @@
 
     }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 500px) {
     .achievements-container {
         background-image: url(img/achievements-bg-mobile.svg);
         background-size: cover;

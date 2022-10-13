@@ -43,17 +43,22 @@
 }
 
 .slider-card-title {
-    font-family: 'DM Serif Display';
+
+    font-family: 'Fira Sans';
     font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 170%;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
     text-align: center;
     letter-spacing: 0.03em;
     color: #000000;
+    width:80%;
+
+
 }
 .slider-card-comments {
-    font-family: 'Source Sans Pro';
+    font-family: 'Heebo';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -61,13 +66,13 @@
     text-align: center;
     letter-spacing: 0.01em;
     color: #000000;
-    width: 400px;
+    width: 80%;
 }
 .slider-card-student {
-    font-family: 'Source Sans Pro';
+    font-family: 'Heebo';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 170%;
     text-align: center;
     letter-spacing: 0.01em;
@@ -75,10 +80,105 @@
     
 }
 
-@media screen and (max-width: 415px) {
+.slider-card-student-des{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #343131;
+
+}
+
+
+/* button */
+
+.cta-button button {
+    width: 358px;
+    height: 60px;
+
+    /* background: #78B548; */
+    background: #78B548;
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+
+    transition: .4s;
+}
+
+.cta-button button:hover{
+    transform: scale(1.06);
+    /* background: rgb(45, 45, 45); */
+}
+.cta-button button:active{
+    transform: scale(.8);
+}
+
+/* .button-container {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 22px;
+}  */
+
+.slider-card-single-cta{
+    width: 726px;
+    height: 496px;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.slider-card-title-cta{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    width:80%;
+}
+
+
+
+
+@media screen and (min-width: 501px) and (max-width:674px) {
+   .slider-card-single {
+    height: auto;
+   }
+   .carousel-indicators {
+       bottom: -45px;
+   }
+}
+
+@media screen and (max-width: 500px) {
     .slider-card-single {
-        width: 267px;
-        height: 399px;
+        width: 85%;
+        height: 99%;
         padding-top: 24px;
         padding-bottom: 24px;
     }
@@ -97,7 +197,7 @@
         line-height: 170%;
         text-align: center;
         letter-spacing: 0.01em;
-        width: 235px;
+        width: 80%;
     }
     .slider-card-student {
         font-size: 20px;
@@ -116,7 +216,66 @@
     }
 
     .carousel-indicators {
-        bottom: 40px;
+        bottom: -43px;
+    }
+
+
+    .cta-button button {
+        width: 300px;
+        height: 60px;
+
+        /* background: #78B548; */
+        background: #78B548;
+        border: none;
+        border-radius: 10px;
+
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: 0.035em;
+        color: #FFFFFF;
+
+        transition: .4s;
+    }
+
+    .cta-button button:hover{
+        transform: scale(1.06);
+        /* background: rgb(45, 45, 45); */
+    }
+    .cta-button button:active{
+        transform: scale(.8);
+    }
+    .slider-card-single-cta{
+        width: 90%;
+        height: 99%;
+        background-color: rgb(255, 255, 255);
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+        border-radius: 10px;
+    
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    
+    }
+
+    .slider-card-title-cta{
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 160%;
+        /* identical to box height, or 29px */
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #000000;
+        width:80%;
     }
 }
-
